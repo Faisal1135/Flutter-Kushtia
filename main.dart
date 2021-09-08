@@ -1,38 +1,65 @@
 void main() {
-  // print("My name is" + " " + name + "My age is ");
+  if (num1 > 15 || num1 > 25) {
+    print("You are a Adult");
+  } else {
+    print('yOU ARE CHILD');
+  }
 
-  print(
-      "My name is $name . My age is $age , is student - $isStudent.after 6 years my age will be ${age + 6}");
-  // print("hellow world");
-  print(students[1]);
-  print(name);
-  print("name");
-  print(studentsm[1]["name"]);
+  // var result = num1 > 15 ? "You are Adult" : "YOu are child";
+
+  // ~ -tilda
+  // `` -backtik
+  // "!"  - bang
+  // @ - at the rate
+  // # - hash- sharper- octathod
+  // $ - Doller
+  // % - percent
+  // ^ - caps
+  // & - ampersend
+  //     ==  * - Asteris
+  // | = pipe
+
+  //(parenthesis ) -{ curly braces}-[squre braces], <angel braces>, forward slah / \backwared slash
+
+  switch (num1 > 15) {
+    case true:
+      print("yOU ARE ADULT");
+
+      break;
+
+    default:
+      print("this value is Defalut");
+  }
+
+  // print(result);
+
+  // if (num1 > 15) {}
 }
 
-var name = "faisal Kabir Galib";
+// 15 in - child
+// 15 - 25 = Teen
+// 25-  = Adult
+// 40 = old
 
-// String name = "Faisal Kabir Galib";
+var num1 = 15;
+var num2 = 34;
 
-//  My name is gALIB, MY age is 24;
+// DRY - WET
 
-int age = 24;
-// double ageStr = "24";
+// dONT REPERAT YOUSELF 
 
-double agedoub = 24.586;
+// wRITE eVERYTHING tWICH 
 
-bool isStudent = false;
 
-List students = ["Irfan-24-kustia-038484", "Sajjad", "Ananta", 34];
 
-Map<String, dynamic> studet1 = {
-  "name": "Faisal Kabir",
-  "age": 24,
-  "isStudent": true
-};
 
-List<Map<String, dynamic>> studentsm = [
-  {"name": "Irfan", "age": 23, "address": "bvkjfnn"},
-  {"name": "Sajjad", "age": 24, "address": "djff"},
-  {"name": "Antanta", "age": 25, "address": "Osomvokari"},
-];
+
+
+
+// Variable
+// Data Type - String ,int ,double, bool, List , Map , dynamic
+// Branching - If /else   -- Swich case
+// Loop - for , while , do-while
+// Function
+// Class 
+// OOP
