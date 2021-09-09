@@ -1,65 +1,78 @@
 void main() {
-  if (num1 > 15 || num1 > 25) {
-    print("You are a Adult");
+  // password = "nofkm";
+  // if (age > 0 && age <= 15) {
+  //   print("You are Child");
+
+  //   // } else if (age < 25) {
+  //   //   print("YOU ARE A tEEN");
+  // } else if (age > 15 && age <= 25) {
+  //   print("YOu are a teen");
+  // } else if (age > 25 && age <= 40) {
+  //   print("You are an adult");
+  // } else {
+  //   print("YOU ARE OLD");
+  // }
+
+  if (inputPass == passwordRidoy) {
+    print("Hridoy vai");
+  } else if (inputPass == passwordIrfan) {
+    print("Irfan vai");
+  } else if (inputPass == "ybf") {
+    print("omuk vai");
+  } else if (inputPass == "yfjj") {
+    print("tomuk vai");
   } else {
-    print('yOU ARE CHILD');
+    print("Sajjad vai");
   }
 
-  // var result = num1 > 15 ? "You are Adult" : "YOu are child";
-
-  // ~ -tilda
-  // `` -backtik
-  // "!"  - bang
-  // @ - at the rate
-  // # - hash- sharper- octathod
-  // $ - Doller
-  // % - percent
-  // ^ - caps
-  // & - ampersend
-  //     ==  * - Asteris
-  // | = pipe
-
-  //(parenthesis ) -{ curly braces}-[squre braces], <angel braces>, forward slah / \backwared slash
-
-  switch (num1 > 15) {
-    case true:
-      print("yOU ARE ADULT");
-
+  switch (inputPass) {
+    case "abc":
+      print("Hridoy vai");
       break;
 
+    case "def":
+      print("Irfan Vai");
+      break;
+    case "ghi":
+      print("Sajjad  Vai");
+      break;
     default:
-      print("this value is Defalut");
+      print("Kothao kew nai");
   }
 
-  // print(result);
+  // var result = age > 15 ? "YOU are a child" : "You are an adult";
 
-  // if (num1 > 15) {}
+  // switch case
+// bool condition ? in case ture : in case false;
+  // if (bool ){
+  //
+  //
+  // }else{
+  // }
+
+  // if (age > 15) {
+  //   print("YOu are an adult");
+  // }
 }
 
-// 15 in - child
-// 15 - 25 = Teen
-// 25-  = Adult
-// 40 = old
+// t fn (input){
+// body
 
-var num1 = 15;
-var num2 = 34;
+// return output
+//
+// }
 
-// DRY - WET
+var inputPass = "abc";
 
-// dONT REPERAT YOUSELF 
+var passwordRidoy = "abc";
+var passwordIrfan = "def";
+var passwordSajjad = "ghi";
 
-// wRITE eVERYTHING tWICH 
+int age = 15;
 
+var name = "Galib";
 
-
-
-
-
-
-// Variable
-// Data Type - String ,int ,double, bool, List , Map , dynamic
-// Branching - If /else   -- Swich case
-// Loop - for , while , do-while
-// Function
-// Class 
-// OOP
+// 15 - Child
+// 15-25 = Teen
+// 25-40 = Adult
+// 40 up - Oldprint("You are Child")
