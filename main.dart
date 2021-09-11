@@ -16,22 +16,29 @@ void main() {
 
   // t Fn (input // amm, chinni , pani ) {  return }
 
-  doBazar(bool hasPani, {int bagnum = 1}) {
+  double doBazar(bool hasPani, {int bagnum = 1}) {
+    double totalbill = bagnum.toDouble();
     print("flat er niche namo ");
     print("peyarotola bazar e zau  ");
     print("rickshaw niye NS road zaw . ");
     print("Collect bazarer bag $bagnum. ");
     print("rickshaw niye pT road zaw . ");
-
+    totalbill = bagnum * 1000;
     if (hasPani) {
+      totalbill = totalbill + 50;
       print("Take water");
     }
     print("flat 4th floor ");
+    return totalbill;
   }
 
   // Day 01
 
-  print(doBazar(true));
+  var bill1 = doBazar(true);
+  print(bill1);
+
+  print(triangleArea(2.5, 5));
+  print(circleArea(2.5));
 
   // print("flat er niche namo ");
   // print("peyarotola bazar e zau  ");
@@ -42,7 +49,7 @@ void main() {
 
 // Day 02
 
-  print(doBazar(true));
+  // print(doBazar(true));
 
   // print("flat er niche namo ");
   // print("peyarotola bazar e zau  ");
@@ -53,7 +60,7 @@ void main() {
 
 // Day 03
 
-  print(doBazar(false, bagnum: 2));
+  // print(doBazar(false, bagnum: 2));
 
   // print("flat er niche namo ");
   // print("peyarotola bazar e zau  ");
@@ -74,6 +81,18 @@ void main() {
 }
 
 int age = 15;
+
+double triangleArea(double v, double h) {
+  var area = 0.5 * v * h;
+  return area;
+}
+
+double circleArea(double radius) {
+  return 3.14159265358979323 * radius * radius;
+}
+
+
+
 
 // t Fn (input){ body }
 // Braching , Conditional , Block
