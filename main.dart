@@ -6,7 +6,7 @@ void main() {
   //
 
   // print(circleArea(3.4));
-  print(circleAreaArr(3.4));
+  print(circleAreaArr(3.5));
 
   if (age < 25) {
     print("you are child");
