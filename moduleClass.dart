@@ -1,47 +1,56 @@
 void main() {
+  var student = Student();
   var mycar = Car();
-  var st1 = Student();
-  st1.write();
+  mycar.driver();
 
-  // user.login()
-
-  print(mycar.driver());
+  student.speak();
 }
 
-// Class ,Object
+// DRY NOT WET
+
+// variable datatype
+// braching - if /else / elseif / Ternary oparator / switch case
+// function - syn/ call / positional / optional /
+
+// loop - while/ do while/ for / for in
+
+// Class , Object // OOP
+
+// OOp - Blurprint  - House
+
+// Car
 
 class Car {
-  var numDoor = 4;
+  var countDoor = 4; // properties
+  var countwheel = 4;
 
-  String driver() {
-    return "Start moving";
+  void driver() {
+    // Method
+    print("Start moving");
+  }
+
+  void breakr() {
+    print("stop the car");
   }
 }
 
-class Student {
-  int roll = 3;
+//
+
+class Human {
+  var countleg = 2;
+
+  void speak() {
+    print("boka suru korlo");
+  }
+}
+
+class Student extends Human {
+  @override
+  void speak() {
+    print("ami student bolsi");
+  }
 
   void study() {
     print("porasunar chorom chap");
   }
-
-  void write() {
-    print("I can write");
-  }
 }
-
-
-
-// Abstraction
-
-
-
-
-
-
-
-
-//  Blueprint Car - properties function - Method , - Car
-
-
-// 

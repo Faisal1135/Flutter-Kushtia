@@ -1,5 +1,8 @@
 #!/
 # shabang
+print("hello")  # 101010
+
+# Sandbox
 
 
 def circleArea(radius):
