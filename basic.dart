@@ -1,49 +1,22 @@
 void main() {
-  var myhouse = House();
-  var student1 = Student();
-  print(student1.countLeg);
-  student1.speak();
+  // DAY -01
+  // dobazarr();
+  // // DAY -02
+  // dobazarr();
+  // dobazarr();
+  // dobazarr();  // lOOP
 
-  // myhouse.protect();
-}
-// Class // Object
+  int num = 0;
 
-// House er Blueprint - Template --> Real House
-
-// Class --> Object
-
-//
-
-// BLUEPRINT
-class House {
-  int countRoom = 100; // Properties
-
-  void protect() {
-    print("giving shelter");
-  } // Method
-}
-
-// Dry  - inheritance
-class Human {
-  int countLeg = 2;
-
-  void speak() {
-    print("bola suru korlo");
+  if (num > 30) {
+    dobazarr();
   }
 }
 
-class Student extends Human {
-  @override
-  void speak() {
-    super.speak();
-    // super.speak();
-    print(" i am a student");
-  }
+// DRY
 
-  @override
-  int get countLeg => 4;
+// Object Oriented Programming
 
-  void study() {
-    print("porasunar chorom chap");
-  }
+void dobazarr() {
+  print("getting bazar");
 }

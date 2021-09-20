@@ -2,7 +2,6 @@ void main() {
   var student = Student();
   var mycar = Car();
   mycar.driver();
-
   student.speak();
 }
 
@@ -47,6 +46,7 @@ class Human {
 class Student extends Human {
   @override
   void speak() {
+    super.speak();
     print("ami student bolsi");
   }
 
@@ -54,3 +54,8 @@ class Student extends Human {
     print("porasunar chorom chap");
   }
 }
+
+
+
+// Pascal case - HelloWorld
+// cammel case - helloWorldGalib

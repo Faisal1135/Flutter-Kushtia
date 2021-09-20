@@ -45,7 +45,22 @@ void main() {
   //   return totalbill;
   // }
 
+  void dobazarr(bool haspani, {int bagnum = 1}) {
+    print("flat er niche namo ");
+    print("peyarotola bazar e zau  ");
+    print("rickshaw niye NS road zaw . ");
+    print("Collect bazarer bag $bagnum ");
+    print("rickshaw niye pT road zaw . ");
+
+    if (haspani) {
+      print("take water");
+    }
+    print("flat 4th floor ");
+  }
+
   // Day 01
+  dobazarr(true);
+  dobazarr(false, bagnum: 2);
 
   // var bill1 = doBazar(false, 2, bagnum: 2);
   // print(bill1);
@@ -58,7 +73,7 @@ void main() {
   // print(doBazar(true));
 
   calgpa("A-");
-  // doBazar(true, bagnum: 2);
+  doBazar(true, bagnum: 2);
 
   // print("flat er niche namo ");
   // print("peyarotola bazar e zau  ");

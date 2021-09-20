@@ -1,1 +1,6 @@
 ## Chorom Important *****
+
+
+// Android Studio
+// FLutter SDK
+// VSCODE 
